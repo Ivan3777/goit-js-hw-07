@@ -22,4 +22,4 @@ function creatElements(gallery) {
   return imageEl;
 }
 
-new SimpleLightbox('.gallery a', { captionDelay: 250,  captionsData: 'alt'});
+new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
