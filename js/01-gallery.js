@@ -5,9 +5,9 @@ console.log(galleryItems);
 
 const galleryContainer = document.querySelector('.gallery');
 
-galleryContainer.innerHTML = creatElemens(galleryItems);
+galleryContainer.innerHTML = creatElements(galleryItems);
 
-function creatElemens(gallery) {
+function creatElements(gallery) {
   const imageEl = gallery
     .map(
       ({ preview, original, description }) =>
